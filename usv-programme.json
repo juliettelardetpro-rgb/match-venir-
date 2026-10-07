@@ -1,0 +1,168 @@
+{
+ "clubs": {
+  "usv": "US Valbonne Sophia Antipolis",
+  "antibes": "FC Antibes",
+  "tourrettes": "Tourrettes-sur-Loup",
+  "hyeres": "Hyères 83",
+  "biot": "US Biot",
+  "golfejuan": "FC Golfe-Juan",
+  "colle": "FC La Colle-sur-Loup",
+  "rssi": "RS Saint-Isidore",
+  "villeneuve": "Villeneuve-Loubet Football",
+  "menton": "ROS Menton",
+  "fontonne": "AS Fontonne Antibes",
+  "ascc": "ASCC Football",
+  "roquettan": "SO Roquettan",
+  "jsj": "JSJ 06",
+  "baous": "ES des Baous",
+  "pegomas": "US Pégomas"
+ },
+ "matchs": [
+  {
+   "jour": "Dimanche",
+   "heure": "15H00",
+   "stade": "Stade L. Chabert",
+   "categorie": "Séniors D1",
+   "gauche": "usv",
+   "droite": "antibes"
+  },
+  {
+   "jour": "Dimanche",
+   "heure": "13H00",
+   "stade": "Stade L. Chabert",
+   "categorie": "Séniors D3",
+   "gauche": "usv",
+   "droite": "tourrettes"
+  },
+  {
+   "jour": "Samedi",
+   "heure": "16H30",
+   "stade": "Stade G. Robert",
+   "categorie": "U20 R",
+   "gauche": "hyeres",
+   "droite": "usv"
+  },
+  {
+   "jour": "Dimanche",
+   "heure": "11H00",
+   "stade": "Stade L. Chabert",
+   "categorie": "U17 - 1",
+   "gauche": "usv",
+   "droite": "antibes"
+  },
+  {
+   "jour": "Samedi",
+   "heure": "16H30",
+   "stade": "Stade L. Chabert",
+   "categorie": "U16 - 1",
+   "gauche": "usv",
+   "droite": "biot"
+  },
+  {
+   "jour": "Samedi",
+   "heure": "13H30",
+   "stade": "Stade Golf Juan",
+   "categorie": "U16 - 2",
+   "gauche": "usv",
+   "droite": "golfejuan"
+  },
+  {
+   "jour": "Dimanche",
+   "heure": "10H00",
+   "stade": "Stade Fort Carré",
+   "categorie": "U15 - 1",
+   "gauche": "antibes",
+   "droite": "usv"
+  },
+  {
+   "jour": "Dimanche",
+   "heure": "15H00",
+   "stade": "Stade M. Laurent",
+   "categorie": "U15 - 2",
+   "gauche": "colle",
+   "droite": "usv"
+  },
+  {
+   "jour": "Dimanche",
+   "heure": "10H00",
+   "stade": "Stade Parc Ouest 14",
+   "categorie": "U14 - 1",
+   "gauche": "rssi",
+   "droite": "usv"
+  },
+  {
+   "jour": "Dimanche",
+   "heure": "9H00",
+   "stade": "Stade L. Chabert",
+   "categorie": "U14 - 2",
+   "gauche": "usv",
+   "droite": "villeneuve"
+  },
+  {
+   "jour": "Samedi",
+   "heure": "15H00",
+   "stade": "Stade L. Chabert",
+   "categorie": "U13 - 2",
+   "gauche": "usv",
+   "droite": "menton"
+  },
+  {
+   "jour": "Samedi",
+   "heure": "10H30",
+   "stade": "Stade L. Chabert",
+   "categorie": "U11 - 1",
+   "gauche": "usv",
+   "droite": "fontonne"
+  },
+  {
+   "jour": "Samedi",
+   "heure": "10H30",
+   "stade": "Stade Sauvaigo 3",
+   "categorie": "U9 - 1",
+   "gauche": "ascc",
+   "droite": "usv"
+  },
+  {
+   "jour": "Samedi",
+   "heure": "11H15",
+   "stade": "Stade J. Ferrero",
+   "categorie": "U9 - 2",
+   "gauche": "roquettan",
+   "droite": "usv"
+  },
+  {
+   "jour": "Samedi",
+   "heure": "11H15",
+   "stade": "6. Auvergne",
+   "categorie": "U8 - 1",
+   "gauche": "jsj",
+   "droite": "usv"
+  },
+  {
+   "jour": "Samedi",
+   "heure": "9H30",
+   "stade": "Stade Mont Gros",
+   "categorie": "U8 - 2",
+   "gauche": "baous",
+   "droite": "usv"
+  },
+  {
+   "jour": "Samedi",
+   "heure": "13H00",
+   "stade": "Stade L. Chabert",
+   "categorie": "U15 F",
+   "gauche": "usv",
+   "droite": "pegomas",
+   "feminin": true
+  },
+  {
+   "jour": "Samedi",
+   "heure": "15H00",
+   "stade": "Stade L. Chabert",
+   "categorie": "U13 F",
+   "gauche": "usv",
+   "droite": "villeneuve",
+   "feminin": true
+  }
+ ]
+}
