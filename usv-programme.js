@@ -1,6 +1,6 @@
 (function(){
-var BASE='https://cdn.jsdelivr.net/gh/juliettelardetpro-rgb/R-sultats-des-matchs-1@main/programme/';
-var DATA='https://raw.githubusercontent.com/juliettelardetpro-rgb/R-sultats-des-matchs-1/main/programme/usv-programme.json';
+var BASE='https://cdn.jsdelivr.net/gh/juliettelardetpro-rgb/match-venir-@main/';
+var DATA=['https://raw.githubusercontent.com/juliettelardetpro-rgb/match-venir-/main/usv-programme.json','https://cdn.jsdelivr.net/gh/juliettelardetpro-rgb/match-venir-@main/usv-programme.json'];
 var root=document.getElementById('usvpw');if(!root)return;
 root.innerHTML='<div class="f"><button class="on" data-f="all">Tout le week-end</button><button data-f="Samedi">Samedi</button><button data-f="Dimanche">Dimanche</button><button data-f="fem">Féminines</button></div><div class="list"></div>';
 var list=root.querySelector('.list'),N={},cards=[],io=null;
@@ -33,5 +33,9 @@ root.addEventListener('click',function(e){
  [].forEach.call(root.querySelectorAll('.l.pop'),function(x){x.classList.remove('pop');});
  l.classList.add('pop');setTimeout(function(){l.classList.remove('pop');},1800);
 });
-fetch(DATA,{cache:'no-store'}).then(function(r){if(!r.ok)throw 0;return r.json();}).then(build).catch(function(){list.innerHTML='<p style="text-align:center;color:#12285f">Le programme du week-end est momentanément indisponible.</p>';});
+function load(i){
+ if(i>=DATA.length){list.innerHTML='<p style="text-align:center;color:#12285f;font-family:Arial,sans-serif">Le programme du week-end est momentanément indisponible.<br><small>Fichier introuvable : '+DATA[0]+'</small></p>';return;}
+ fetch(DATA[i],{cache:'no-store'}).then(function(r){if(!r.ok)throw 0;return r.json();}).then(build).catch(function(){load(i+1);});
+}
+load(0);
 })();
